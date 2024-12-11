@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.fundament{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    margin: 20px
+}
+.oo{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+a{
+    margin: 5px
+}
