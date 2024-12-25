@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(stem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blog{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+.up{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+.g{
+    margin: 10px
+}
+.p{
+    margin: 10px
+}
+.o{
+    margin: 10px
+}
+article{
+    border: solid;
+    padding: 35px;
+}
+.prava{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 300px;
+    border-radius: 3%;
+}
+.gen{
+    width: 200px
+}
+p{
+    color: yellow;
+}
+h1{
+    color: yellow;
+}
