@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.oo{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+img{
+    justify-content: center;
+    display: flex;
+    width: 400px
+}
