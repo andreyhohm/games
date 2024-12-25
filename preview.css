@@ -1,10 +1,14 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
     min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(main.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .fundament{
     display: flex;
@@ -12,7 +16,11 @@ body{
     flex-wrap: wrap;
 }
 p{
-    margin: 20px
+    margin: 20px;
+    color: greenyellow;
+}
+h1{
+    color: greenyellow;
 }
 .oo{
     justify-content: center;
@@ -23,4 +31,15 @@ p{
 }
 a{
     margin: 5px
+}
+h2{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+img{
+    height: 450px;
+    border-radius: 10%
 }
